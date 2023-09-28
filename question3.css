@@ -1,0 +1,39 @@
+/* Custom color palette */
+
+.color-primary {
+    background-color: #007bff;
+  }
+  
+  .color-secondary {
+    background-color: #6c757d;
+  }
+  
+  .color-accent {
+    background-color: #28a745;
+  }
+  
+  /* Form styling */
+  
+  .form-section {
+    margin-bottom: 1rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .input--submit {
+    background-color: .color-primary;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Apply opacity to the submit section */
+  
+  .form-section--submit {
+    opacity: 0.8;
+  }
+  

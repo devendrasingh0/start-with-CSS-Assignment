@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Page with Multiple Paragraphs with Unique Class Names</title>
+  <style>
+    /* BEM naming convention */
+
+.paragraph {
+  /* Common styling for all paragraphs */
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Modifier classes for distinct styling */
+
+.paragraph--intro {
+  font-weight: bold;
+  text-align: center;
+}
+
+.paragraph--body {
+  text-align: left;
+}
+
+.paragraph--conclusion {
+  text-align: right;
+}
+
+  </style>
+</head>
+<body>
+  <p class="paragraph paragraph--intro">This is the introductory paragraph.</p>
+  <p class="paragraph paragraph--body">This is the body paragraph.</p>
+  <p class="paragraph paragraph--conclusion">This is the concluding paragraph.</p>
+  <p>
+    The BEM naming convention is a CSS convention for naming classes in a modular and reusable way. 
+    It consists of three parts:</p>
+    <ol>
+        <li>Block:The block is the main element on the page.</li>
+        <li>Element:The element is a child element of the block.</li>
+        <li>Modifier:The modifier is used to change the appearance of the block or element.</li>
+    </ol>
+    <p> the above example, the .paragraph class is the block class. The .paragraph--intro, .paragraph--body, and .paragraph--conclusion classes are modifier classes.</p>
+    <p>The modifier classes are used to apply distinct styling to each paragraph. For example, the .paragraph--intro class makes the introductory paragraph bold and centered. The .paragraph--body class makes the body paragraph left-aligned. And the .paragraph--conclusion class makes the concluding paragraph right-aligned.</p>
+  </p>
+</body>
+</html>
